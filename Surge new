@@ -23,9 +23,10 @@ keyword-filter-type = false
 [Proxy]
 ✪ Direct = direct
 
-Proxy01 = https,adc-us.com,443,username = 用户名,password = 密码
-Proxy02 = ss, abc-kt.com, 443, encrypt-method = rc4-md5, password = 密码
-Proxy03 = socks5, abc-cn.com, 443, username = 用户名, password = 密码
+🇺🇸 US = custom,us.com,1234,rc4-md5,password,https://www.kerwin.info/shadowsocks/SSEncrypt.module
+🇭🇰 HK = custom,hk.com,1234,rc4-md5,password,https://www.kerwin.info/shadowsocks/SSEncrypt.module
+🇯🇵 JP = custom,jp.com,1234,rc4-md5,password,https://www.kerwin.info/shadowsocks/SSEncrypt.module
+🇸🇬 SG = custom,sg.com,1234,rc4-md5,password,https://www.kerwin.info/shadowsocks/SSEncrypt.module
 
 Ad-Pass = direct
 Ad-Block = reject
@@ -38,7 +39,7 @@ Ad-GIF = reject-tinygif
 ❖ Global_Media = select, ✪ Direct, ➤ Proxy
  Apple = select, ✪ Direct, ➤ Proxy
 ◈ Others = select, ✪ Direct, ➤ Proxy
-❂ Auto = url-test, Proxy01,Proxy02,Proxy03 url = http://www.gstatic.com/generate_204, interval = 1200
+❂ Auto = url-test, 🇺🇸 US,🇭🇰 HK,🇯🇵 JP,🇸🇬 SG url = http://www.gstatic.com/generate_204, interval = 1200
 ◐ AdBlock = select, Ad-GIF,Ad-Block,Ad-Pass
 
 [Rule]
