@@ -2,7 +2,7 @@
 DOMAIN-SUFFIX,whoer.net
 DOMAIN-SUFFIX,xkerwin.com
 DOMAIN-SUFFIX,xkerwin.cn
-
+DOMAIN-SUFFIX,docstransfer.com
 
 // Client
 PROCESS-NAME,Backup and Sync
