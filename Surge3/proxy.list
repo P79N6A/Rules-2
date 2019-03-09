@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,xkerwin.cn
 DOMAIN-SUFFIX,docstransfer.com
 DOMAIN-SUFFIX,speedtest.com
 DOMAIN-SUFFIX,speedtest.cn
+DOMAIN-SUFFIX,pronhub.com
 
 // Client
 PROCESS-NAME,Backup and Sync
